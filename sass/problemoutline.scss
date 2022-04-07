@@ -1,0 +1,43 @@
+
+@import "variables";
+
+.problem-outline {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  .problem {
+    min-height: 500px;
+    max-width: 300px;
+    border-radius: 2rem;
+
+    .thumbnail {
+      height: 200px;
+      max-height: 200px;
+      overflow: hidden;
+      border-top-left-radius: 2rem;
+      border-top-right-radius: 2rem;
+      background-color: $color-accent;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 10px;
+
+      .decorated{
+        font-family: $ds-font-family !important;
+        text-align: center !important; 
+        padding: 10px auto;
+      }
+    }
+  }
+}

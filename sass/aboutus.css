@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo&family=Dancing+Script&family=Exo+2:wght@800&family=Fira+Code:wght@300&family=Jura:wght@300;400&family=Montserrat:wght@200;400&display=swap");
+.about-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px;
+  background-color: #dde5ed;
+}
+
+.about-us .about-head {
+  width: 90%;
+  margin-bottom: 40px;
+}
+
+.about-us .about-col-holder {
+  width: 100%;
+}
+
+.about-us .about-col-holder p {
+  width: 100%;
+}
+
+.about-us .about-subhead {
+  font-family: "Dancing Script", cursive;
+  color: #005257;
+  font-size: 30px;
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  .about-col-holder {
+    width: 100%;
+  }
+  .about-col-holder p {
+    width: 100%;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .about-col-holder {
+    width: 100%;
+  }
+  .about-col-holder p {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=aboutus.css.map */

@@ -1,0 +1,32 @@
+@import "variables"; 
+
+
+
+.training{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  min-height: 100vh;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  .col {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .training-brief-umbrella{ 
+      background-color: $color-umbrella;
+
+    }
+  .training-brief-participate{
+    background-color: $color-participate;
+  }
+  .training-brief-partneres{
+    background-color: $color-partnered;
+  }  
+}
