@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Arimo&family=Dancing+Script&family=Exo+2:wght@800&family=Fira+Code:wght@300&family=Jura:wght@300;400&family=Montserrat:wght@200;400&display=swap");
 .hero-section {
-  min-height: 90vh;
+  min-height: 100vh;
   min-width: 100vw;
   overflow-x: hidden;
   padding-top: 70px;
@@ -91,7 +91,7 @@
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) {
   .head-section {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -106,7 +106,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-image: url("../images/home-banner-mobile.png");
+    background-image: none;
   }
 }
 
@@ -126,7 +126,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-image: url("../images/home-banner-mobile.png");
+    background-image: none;
   }
 }
 /*# sourceMappingURL=herosections.css.map */
