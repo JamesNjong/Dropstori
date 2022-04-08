@@ -45,3 +45,64 @@
     }
   }
 }
+
+
+
+
+
+
+//about page
+.about-stone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 320px;
+  width: 220px;
+
+  padding: 20px;
+  border: none;
+
+  border-radius: 2rem;
+  margin: 2rem;
+
+  background-color: $color-primary;
+  color: $color-white;
+}
+
+.about-item {
+  padding: 5%;
+}
+
+.about-wecommit {
+  .about-stone {
+    background-color: $color-partnered;
+    color: $color-primary;
+  }
+}
+
+.about-whatmatters {
+  .about-stone {
+    background-color: #d0d8ec;
+    color: $color-primary;
+  }
+}
+
+.about-whywe {
+  .about-stone {
+    background-color: #eaecd0;
+    color: $color-primary;
+  }
+}
+
+.about-whowe {
+  .about-stone {
+    background-color: #c4f4f0;
+    color: $color-primary;
+  }
+}
+
+.about-hero {
+  padding: 5%;
+}
