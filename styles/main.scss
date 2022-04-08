@@ -16,6 +16,8 @@
 
 @import "../sass/contact";
 
+@import "../sass/scholarships";
+
 * {
   margin: 0;
   padding: 0;
@@ -69,15 +71,11 @@ h6 {
   overflow: hidden;
 }
 
-.scholarships {
-  min-height: 80vh;
-  margin-top: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 
-  .scholarship-para {
-    text-align: justify;
-  }
+.ent-content-wrapper{
+  display: flex;
+  flex-direction:column; 
+  justify-content:center; 
+  align-items: center;
+  
 }

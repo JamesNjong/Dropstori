@@ -7,6 +7,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Arimo&family=Dancing+Script&family=Exo+2:wght@800&family=Fira+Code:wght@300&family=Jura:wght@300;400&family=Montserrat:wght@200;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arimo&family=Dancing+Script&family=Exo+2:wght@800&family=Fira+Code:wght@300&family=Jura:wght@300;400&family=Montserrat:wght@200;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arimo&family=Dancing+Script&family=Exo+2:wght@800&family=Fira+Code:wght@300&family=Jura:wght@300;400&family=Montserrat:wght@200;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo&family=Dancing+Script&family=Exo+2:wght@800&family=Fira+Code:wght@300&family=Jura:wght@300;400&family=Montserrat:wght@200;400&display=swap");
 .header-content {
   color: #030303;
   overflow: auto;
@@ -344,60 +345,6 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-/* Custom, iPhone Retina */
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-  .head-section {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: coulumn;
-            flex-direction: coulumn;
-    background-image: url("../images/home-banner-mobile.png");
-  }
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width: 480px) {
-  .head-section {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    background-image: none;
-  }
-}
-
-/* Small Devices, Tablets */
-@media only screen and (min-width: 768px) {
-  .head-section {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    background-image: none;
-  }
 }
 
 .problem-outline {
@@ -811,6 +758,58 @@ footer {
   }
 }
 
+.about-stone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 320px;
+  width: 220px;
+  padding: 20px;
+  border: none;
+  border-radius: 2rem;
+  margin: 2rem;
+  background-color: #005257;
+  color: #FFFFFF;
+}
+
+.about-item {
+  padding: 5%;
+}
+
+.about-wecommit .about-stone {
+  background-color: #FFDEE2;
+  color: #005257;
+}
+
+.about-whatmatters .about-stone {
+  background-color: #d0d8ec;
+  color: #005257;
+}
+
+.about-whywe .about-stone {
+  background-color: #eaecd0;
+  color: #005257;
+}
+
+.about-whowe .about-stone {
+  background-color: #c4f4f0;
+  color: #005257;
+}
+
+.about-hero {
+  padding: 5%;
+}
+
 .contact-us {
   min-height: 100vh;
 }
@@ -926,6 +925,182 @@ footer {
   }
 }
 
+.scholarships {
+  min-height: 80vh;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.scholarships .scholarship-para {
+  text-align: justify;
+}
+
+.scholars-content-wrapper {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.scholar-hero-section {
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow-x: hidden;
+  padding-top: 70px;
+  margin: 0;
+}
+
+.scholar-hero-section .scholar-hero-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.scholar-hero-section .scholar-hero-data .headline {
+  color: #005257 !important;
+}
+
+.scholar-row-3 {
+  padding: 0;
+}
+
+.scholar-row-3 .scholar-item-text {
+  text-align: justify;
+  padding-left: 0;
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  .scholars-content-wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .scholar-row-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  .scholars-content-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .scholar-row-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .scholars-content-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .scholar-row-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  .scholars-content-wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .scholar-row-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  .scholars-content-wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .scholar-row-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space;
+        -ms-flex-pack: space;
+            justify-content: space;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -986,9 +1161,7 @@ h6 {
   overflow: hidden;
 }
 
-.scholarships {
-  min-height: 80vh;
-  margin-top: 30px;
+.ent-content-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1002,9 +1175,5 @@ h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.scholarships .scholarship-para {
-  text-align: justify;
 }
 /*# sourceMappingURL=main.css.map */

@@ -54,4 +54,56 @@
     width: 100%;
   }
 }
+
+.about-stone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 320px;
+  width: 220px;
+  padding: 20px;
+  border: none;
+  border-radius: 2rem;
+  margin: 2rem;
+  background-color: #005257;
+  color: #FFFFFF;
+}
+
+.about-item {
+  padding: 5%;
+}
+
+.about-wecommit .about-stone {
+  background-color: #FFDEE2;
+  color: #005257;
+}
+
+.about-whatmatters .about-stone {
+  background-color: #d0d8ec;
+  color: #005257;
+}
+
+.about-whywe .about-stone {
+  background-color: #eaecd0;
+  color: #005257;
+}
+
+.about-whowe .about-stone {
+  background-color: #c4f4f0;
+  color: #005257;
+}
+
+.about-hero {
+  padding: 5%;
+}
 /*# sourceMappingURL=aboutus.css.map */
