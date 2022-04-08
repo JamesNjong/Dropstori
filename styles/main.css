@@ -417,7 +417,6 @@ footer {
           align-items: center;
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: #d6eef1;
 }
 
 .problem-outline .col {
@@ -437,18 +436,14 @@ footer {
 }
 
 .problem-outline .problem {
-  min-height: 500px;
-  max-width: 300px;
-  border-radius: 2rem;
+  min-height: 600px;
+  max-width: 350px;
 }
 
 .problem-outline .problem .thumbnail {
   height: 200px;
   max-height: 200px;
   overflow: hidden;
-  border-top-left-radius: 2rem;
-  border-top-right-radius: 2rem;
-  background-color: #19C17E;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -460,12 +455,52 @@ footer {
           align-items: center;
   text-align: center;
   padding: 10px;
+  color: #FFFFFF;
 }
 
 .problem-outline .problem .thumbnail .decorated {
   font-family: "Dancing Script", cursive !important;
   text-align: center !important;
-  padding: 10px auto;
+  padding: 15% auto;
+}
+
+.problem-outline .problem-1 {
+  background-image: url("../images/homesplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.problem-outline .problem-2 {
+  background-image: url("../images/bizwoman.jpg");
+  background-position: center;
+  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.problem-outline .problem-3 {
+  background-image: url("../images/schoolboy.jpg");
+  background-position: center;
+  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.problem-outline .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .services-outline {
@@ -581,6 +616,10 @@ footer {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: rgba(233, 233, 210, 0.692);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
 }
 
 .value-proposition .vp-container {
@@ -730,7 +769,7 @@ footer {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: start;
-  padding: 50px;
+  padding: 10%;
   background-color: #dde5ed;
 }
 
@@ -925,30 +964,6 @@ a {
 a:hover {
   font-family: "Arimo", sans-serif;
   color: #005257;
-}
-
-a::after {
-  content: "";
-  width: 10px;
-  height: 1px;
-  background-color: #005257;
-  border-radius: 2rem;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transform-origin: left;
-          transform-origin: left;
-  -webkit-transition: -webkit-transform 0.25s ease;
-  transition: -webkit-transform 0.25s ease;
-  transition: transform 0.25s ease;
-  transition: transform 0.25s ease, -webkit-transform 0.25s ease;
-}
-
-a:hover::after {
-  -webkit-transform: scaleX(1);
-          transform: scaleX(1);
 }
 
 p {
