@@ -1,7 +1,7 @@
 @import "variables";
 
 .hero-section {
-  min-height: 90vh;
+  min-height: 100vh;
   min-width: 100vw;
   overflow-x: hidden;
   padding-top: 70px;
@@ -69,13 +69,13 @@
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) {
   .head-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("../images/home-banner-mobile.png");
+    background-image: none;
   }
 }
 
@@ -86,6 +86,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("../images/home-banner-mobile.png");
+    background-image: none;
   }
 }

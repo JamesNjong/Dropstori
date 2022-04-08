@@ -270,7 +270,7 @@ footer {
 /* Medium Devices, Desktops */
 /* Large Devices, Wide Screens */
 .hero-section {
-  min-height: 90vh;
+  min-height: 100vh;
   min-width: 100vw;
   overflow-x: hidden;
   padding-top: 70px;
@@ -361,7 +361,7 @@ footer {
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) {
   .head-section {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -376,7 +376,7 @@ footer {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-image: url("../images/home-banner-mobile.png");
+    background-image: none;
   }
 }
 
@@ -396,7 +396,7 @@ footer {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-image: url("../images/home-banner-mobile.png");
+    background-image: none;
   }
 }
 
@@ -415,6 +415,9 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #d6eef1;
 }
 
 .problem-outline .col {
@@ -467,12 +470,12 @@ footer {
 
 .services-outline {
   padding-top: 60px;
-  background-image: url("../images/background-wave-service.svg");
-  background-size: cover;
+  margin-top: 10px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .services-outline .section-header-service {
-  padding-bottom: 60px;
   padding-left: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -530,12 +533,54 @@ footer {
   margin: 10px;
 }
 
+.service-item {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.service-item-text {
+  text-align: justify;
+}
+
+.jobhunting {
+  background-color: #f7f5f5;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.workshops {
+  background-color: antiquewhite;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.schoolytics {
+  background-color: #ecffeb;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 .value-proposition {
   min-height: 100vh;
   max-width: 100vw;
   overflow-x: hidden;
   margin-top: 30px;
   margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgba(233, 233, 210, 0.692);
 }
 
 .value-proposition .vp-container {
@@ -632,6 +677,15 @@ footer {
   min-height: 100vh;
   margin-top: 40px;
   margin-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #fdfef9;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  max-width: 80%;
 }
 
 .training .col {
@@ -670,18 +724,17 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
   padding: 50px;
   background-color: #dde5ed;
 }
 
 .about-us .about-head {
-  width: 90%;
   margin-bottom: 40px;
 }
 
@@ -690,7 +743,7 @@ footer {
 }
 
 .about-us .about-col-holder p {
-  width: 100%;
+  max-width: 100%;
 }
 
 .about-us .about-subhead {
@@ -700,7 +753,7 @@ footer {
 }
 
 /* Custom, iPhone Retina */
-@media only screen and (max-width: 320px) {
+@media only screen and (min-width: 320px) {
   .about-col-holder {
     width: 100%;
   }
@@ -710,7 +763,7 @@ footer {
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 480px) {
   .about-col-holder {
     width: 100%;
   }
@@ -872,6 +925,30 @@ a {
 a:hover {
   font-family: "Arimo", sans-serif;
   color: #005257;
+}
+
+a::after {
+  content: "";
+  width: 10px;
+  height: 1px;
+  background-color: #005257;
+  border-radius: 2rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transition: -webkit-transform 0.25s ease;
+  transition: -webkit-transform 0.25s ease;
+  transition: transform 0.25s ease;
+  transition: transform 0.25s ease, -webkit-transform 0.25s ease;
+}
+
+a:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
 }
 
 p {

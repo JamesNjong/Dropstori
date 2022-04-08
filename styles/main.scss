@@ -48,6 +48,23 @@ a:hover {
   font-family: $arimo-font-family;
   color: $color-primary;
 }
+a::after {
+  content: "";
+  width: 10px;
+  height: 1px;
+  background-color: $color-primary;
+  border-radius: 2rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s ease;
+}
+
+a:hover::after {
+  transform: scaleX(1);
+}
 
 p {
   text-align: justify;

@@ -2,11 +2,11 @@
 
 .services-outline {
   padding-top: 60px;
-  background-image: url("../images/background-wave-service.svg");
-  background-size: cover;
+  margin-top: 10px;
+  padding-left: 0;
+  padding-right: 0;
 
   .section-header-service {
-    padding-bottom: 60px;
     padding-left: 100px;
     display: flex;
     flex-direction: column;
@@ -46,4 +46,34 @@
       margin: 10px;
     }
   }
+}
+
+.service-item {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-item-text {
+  text-align: justify;
+}
+
+.jobhunting {
+  background-color: #f7f5f5;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.workshops {
+  background-color: antiquewhite;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.schoolytics {
+  background-color: #ecffeb;
+  padding-left: 10%;
+  padding-right: 10%;
 }
